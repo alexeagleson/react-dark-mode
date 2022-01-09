@@ -58,7 +58,7 @@ If you choose not to use CRA you should still be able to follow along with this 
 
 If you are not using `webpack` you can simply use a `<link>` element for your CSS files in your `index.html` rather than importing them.
 
-We will also be using [Typescript](https://www.typescriptlang.org/) as is the default for every web project I built these days.  If you are not super familiar with Typescript you should still be able to follow along, thee amount of explicit typing in these examples is minimal.  
+We will also be using [Typescript](https://www.typescriptlang.org/) as is the default for every web project I built these days.  If you are not super familiar with Typescript you should still be able to follow along, the amount of explicit typing in these examples is minimal.  
 
 Lastly, I have included a section on adding tests for your component using _React Testing Library_.  This section is optional.
 
@@ -108,7 +108,7 @@ a {
 }
 ```
 
-1. The `:root` selector matches the root element representing the DOM tree.  Anything you place here will be available anywhere in the application.  This is where will will create the [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) that hold the colours for our light theme.
+1. The `:root` selector matches the root element representing the DOM tree.  Anything you place here will be available anywhere in the application.  This is where we will create the [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) that hold the colours for our light theme.
 
 2. Here we set the colours for our `dark` theme.  Using the attribute selector we target any element with a `data-theme="dark"` attribute on it.  This is a custom attribute that we will be placing ourselves on the `<html>` element.  
 
